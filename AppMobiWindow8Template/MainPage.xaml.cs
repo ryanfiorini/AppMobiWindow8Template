@@ -25,7 +25,7 @@ namespace AppMobiWindow8Template
         {
             this.InitializeComponent();
 
-            webView.Navigate(new Uri("ms-appx-web:///data/index.html"));
+            webView.Navigate(new Uri("ms-appx-web:///html/index.html"));
         }
 
         /// <summary>

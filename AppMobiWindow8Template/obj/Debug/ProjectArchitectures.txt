@@ -1,1 +1,1 @@
-C:\Users\appMobi\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\AppMobiWindows8Template.csproj;neutral
+C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\AppMobiWindows8Template.csproj;neutral

@@ -1,0 +1,37 @@
+<html>
+  <link rel="stylesheet" type="text/css" href="kitchensink/jq.ui.css" title="default"/>
+  <script src="jq.mobi.js"></script>
+  <script>
+  var onDeviceReady=function(){
+      
+      console.log("wtfmobi");
+    AppMobi.device.setRotateOrientation("portrait");
+        AppMobi.device.setAutoRotate(false);
+    webRoot=AppMobi.webRoot+"kitchensink/";
+      //hide splash screen
+      AppMobi.device.hideSplashScreen();  
+    
+    };
+    document.addEventListener("appMobi.device.ready",onDeviceReady,false);    
+    var script=document.createElement("script");
+script.src="plugins/jq.desktopBrowsers.js";
+var tag=$("head").append(script);
+
+    </script>
+
+  <body>
+
+    <ul>
+      <li a href="" onclick="console.log('clicked')">Test</a></li>
+      <li a href="" onclick="console.log('clicked')">Test</a></li>
+      <li a href="" onclick="console.log('clicked')">Test</a></li>
+      <li a href="" onclick="console.log('clicked')">Test</a></li>
+      <li a href="" onclick="console.log('clicked')">Test</a></li>
+      <li a href="" onclick="console.log('clicked')">Test</a></li>
+      <li a href="" onclick="console.log('clicked')">Test</a></li>
+      <li a href="" onclick="console.log('clicked')">Test</a></li>
+      <li a href="" onclick="console.log('clicked')">Test</a></li>
+      <li a href="" onclick="console.log('clicked')">Test</a></li>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+
+*.bat
+/documentation
+/dev
+/kitchensink/base
+/closuredist
+/cdn
+/ui/build.php
+/kitchensink/build.php
+/performance

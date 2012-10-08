@@ -3,8 +3,8 @@ Assets\SmallLogo.png
 Assets\SplashScreen.png
 Assets\StoreLogo.png
 App.xaml
+AppMobiPage.xaml
 Common\StandardStyles.xaml
-MainPage.xaml
 html\appmobi_local_bootstrap.js
 html\defer\index.html
 html\examples\knockout\destroy.png

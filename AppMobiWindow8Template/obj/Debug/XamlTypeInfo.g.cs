@@ -112,7 +112,7 @@ namespace AppMobiWindows8Template.AppMobiWindows8Template_XamlTypeInfo
             }
         }
 
-        private object Activate_0_MainPage() { return new global::AppMobiWindow8Template.MainPage(); }
+        private object Activate_0_AppMobiPage() { return new global::AppMobiWindow8Template.AppMobiPage(); }
 
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(string typeName)
@@ -130,9 +130,9 @@ namespace AppMobiWindows8Template.AppMobiWindows8Template_XamlTypeInfo
                 xamlType = new global::AppMobiWindows8Template.AppMobiWindows8Template_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.UserControl));
                 break;
 
-            case "AppMobiWindow8Template.MainPage":
-                userType = new global::AppMobiWindows8Template.AppMobiWindows8Template_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::AppMobiWindow8Template.MainPage), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+            case "AppMobiWindow8Template.AppMobiPage":
+                userType = new global::AppMobiWindows8Template.AppMobiWindows8Template_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::AppMobiWindow8Template.AppMobiPage), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_0_AppMobiPage;
                 xamlType = userType;
                 break;
 

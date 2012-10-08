@@ -332,8 +332,8 @@
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\bin\Debug\MainPage.xaml">
-      <PackagePath>MainPage.xaml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\bin\Debug\AppMobiPage.xaml">
+      <PackagePath>AppMobiPage.xaml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

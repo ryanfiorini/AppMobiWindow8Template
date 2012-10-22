@@ -17,7 +17,7 @@ input,textarea { -webkit-user-select:text; } /* allow users to select text that 
 img { border:none; } /* Remove default borders for images */
 
 body {
-	overflow-x:hidden;
+    overflow:hidden;
 	-webkit-text-size-adjust:none;
 	font-family:Arial, Helvetica, sans-serif;
 	color:#fff;

@@ -5,7 +5,10 @@ Assets\StoreLogo.png
 App.xaml
 AppMobiPage.xaml
 Common\StandardStyles.xaml
-html\appmobi_local_bootstrap.js
+html\_appMobi\appmobi.js
+html\_appMobi\appmobi_local_bootstrap.js
+html\_appMobi\jq.mobi.js
+html\_appMobi\jq.mobi.min.js
 html\defer\index.html
 html\examples\knockout\destroy.png
 html\examples\knockout\images\background.jpg
@@ -53,8 +56,6 @@ html\examples\todos\todos.css
 html\examples\todos\todos.js
 html\examples\todos\underscore.js
 html\index.html
-html\jq.mobi.js
-html\jq.mobi.min.js
 html\kitchensink\ajax.html
 html\kitchensink\external.html
 html\kitchensink\icons.css

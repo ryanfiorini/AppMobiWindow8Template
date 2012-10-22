@@ -14,7 +14,7 @@
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
         
-        <WebView x:Name="webView" Grid.Column="0" Grid.Row="0"></WebView>
+        <WebView x:Name="webView" Grid.Column="0" Grid.Row="0"/>
     </Grid>
 </Page>
 

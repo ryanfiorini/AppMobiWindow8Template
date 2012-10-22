@@ -132,7 +132,6 @@
     <Content Include="Assets\SmallLogo.png" />
     <Content Include="Assets\SplashScreen.png" />
     <Content Include="Assets\StoreLogo.png" />
-    <Content Include="html\appmobi_local_bootstrap.js" />
     <Content Include="html\defer\index.html" />
     <Content Include="html\examples\knockout\destroy.png" />
     <Content Include="html\examples\knockout\images\background.jpg" />
@@ -180,8 +179,8 @@
     <Content Include="html\examples\todos\todos.js" />
     <Content Include="html\examples\todos\underscore.js" />
     <Content Include="html\index.html" />
-    <Content Include="html\jq.mobi.js" />
-    <Content Include="html\jq.mobi.min.js" />
+    <Content Include="html\_appMobi\jq.mobi.js" />
+    <Content Include="html\_appMobi\jq.mobi.min.js" />
     <Content Include="html\kitchensink\ajax.html" />
     <Content Include="html\kitchensink\external.html" />
     <Content Include="html\kitchensink\icons.css" />
@@ -229,6 +228,8 @@
     <Content Include="html\ui\transitions\slide.js" />
     <Content Include="html\ui\transitions\slideDown.js" />
     <Content Include="html\ui\transitions\slideUp.js" />
+    <Content Include="html\_appMobi\appmobi.js" />
+    <Content Include="html\_appMobi\appmobi_local_bootstrap.js" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

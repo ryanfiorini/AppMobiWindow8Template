@@ -16,17 +16,17 @@
     <AppXManifest Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-12-10T20:19:00.586</Modified>
+      <Modified>2012-12-12T16:14:00.973</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\bin\Debug\AppMobiWindows8Template.exe">
       <PackagePath>AppMobiWindows8Template.exe</PackagePath>
-      <Modified>2012-12-11T19:06:53.388</Modified>
+      <Modified>2012-12-12T16:14:00.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\bin\Debug\AppMobiWindows8Template.pdb">
       <PackagePath>AppMobiWindows8Template.pdb</PackagePath>
-      <Modified>2012-12-11T19:06:53.336</Modified>
+      <Modified>2012-12-12T16:14:00.605</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
@@ -48,393 +48,189 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-03-16T00:42:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\knockout\destroy.png">
-      <PackagePath>html\examples\knockout\destroy.png</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\knockout\images\nav_icons.png">
-      <PackagePath>html\examples\knockout\images\nav_icons.png</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\knockout\images\vert_divider.png">
-      <PackagePath>html\examples\knockout\images\vert_divider.png</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\spacehook\images\ajax-loader.png">
-      <PackagePath>html\examples\spacehook\images\ajax-loader.png</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\spacehook\images\back.png">
-      <PackagePath>html\examples\spacehook\images\back.png</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\spacehook\images\badge.png">
-      <PackagePath>html\examples\spacehook\images\badge.png</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\spacehook\images\close.png">
-      <PackagePath>html\examples\spacehook\images\close.png</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\spacehook\images\custom_inputs.png">
-      <PackagePath>html\examples\spacehook\images\custom_inputs.png</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\spacehook\images\listGroup.png">
-      <PackagePath>html\examples\spacehook\images\listGroup.png</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\spacehook\images\menu.png">
-      <PackagePath>html\examples\spacehook\images\menu.png</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\spacehook\images\Off-On_Slider.png">
-      <PackagePath>html\examples\spacehook\images\Off-On_Slider.png</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\spacehook\images\stripe_bg.png">
-      <PackagePath>html\examples\spacehook\images\stripe_bg.png</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\spacehook\images\vert_divider.png">
-      <PackagePath>html\examples\spacehook\images\vert_divider.png</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\todos\destroy.png">
-      <PackagePath>html\examples\todos\destroy.png</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\kitchensink\images\badge.png">
       <PackagePath>html\kitchensink\images\badge.png</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
+      <Modified>2012-12-12T15:53:55.491</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\kitchensink\images\splash.png">
       <PackagePath>html\kitchensink\images\splash.png</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
+      <Modified>2012-12-12T15:53:55.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\defer\index.html">
       <PackagePath>html\defer\index.html</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
+      <Modified>2012-12-12T13:09:44.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\knockout\index.html">
-      <PackagePath>html\examples\knockout\index.html</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\spacehook\index.html">
-      <PackagePath>html\examples\spacehook\index.html</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\starter\index.html">
-      <PackagePath>html\examples\starter\index.html</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\todos\index.html">
-      <PackagePath>html\examples\todos\index.html</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\index.html">
+      <PackagePath>html\examples\index.html</PackagePath>
+      <Modified>2012-12-12T13:09:44.738</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\index.html">
       <PackagePath>html\index.html</PackagePath>
-      <Modified>2012-12-10T16:35:17.075</Modified>
+      <Modified>2012-12-12T15:59:50.939</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\kitchensink\ajax.html">
       <PackagePath>html\kitchensink\ajax.html</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
+      <Modified>2012-12-12T15:53:55.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\kitchensink\external.html">
       <PackagePath>html\kitchensink\external.html</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
+      <Modified>2012-12-12T15:53:55.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\kitchensink\json.html">
       <PackagePath>html\kitchensink\json.html</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
+      <Modified>2012-12-12T15:53:55.774</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\knockout\images\background.jpg">
-      <PackagePath>html\examples\knockout\images\background.jpg</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\tests\index.html">
+      <PackagePath>html\tests\index.html</PackagePath>
+      <Modified>2012-12-12T13:09:46.607</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\spacehook\images\applab.jpg">
-      <PackagePath>html\examples\spacehook\images\applab.jpg</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\js\jq.desktopBrowsers.js">
+      <PackagePath>html\examples\js\jq.desktopBrowsers.js</PackagePath>
+      <Modified>2012-12-12T13:09:44.775</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\spacehook\images\logo.jpg">
-      <PackagePath>html\examples\spacehook\images\logo.jpg</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\js\jq.template.js">
+      <PackagePath>html\examples\js\jq.template.js</PackagePath>
+      <Modified>2012-12-12T13:09:44.807</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\spacehook\images\mars.jpg">
-      <PackagePath>html\examples\spacehook\images\mars.jpg</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\js\jq.ui.min.js">
+      <PackagePath>html\examples\js\jq.ui.min.js</PackagePath>
+      <Modified>2012-12-12T13:09:44.933</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\knockout\jq.ui.css">
-      <PackagePath>html\examples\knockout\jq.ui.css</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.8tiles.js">
+      <PackagePath>html\plugins\jq.8tiles.js</PackagePath>
+      <Modified>2012-12-12T13:44:52.136</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\knockout\todos.css">
-      <PackagePath>html\examples\knockout\todos.css</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\tests\qunit\qunit.js">
+      <PackagePath>html\tests\qunit\qunit.js</PackagePath>
+      <Modified>2012-12-12T13:09:46.737</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\spacehook\jq.ui.css">
-      <PackagePath>html\examples\spacehook\jq.ui.css</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\starter\styles\icons.css">
-      <PackagePath>html\examples\starter\styles\icons.css</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\starter\styles\jq.actionsheet.css">
-      <PackagePath>html\examples\starter\styles\jq.actionsheet.css</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\starter\styles\jq.popup.css">
-      <PackagePath>html\examples\starter\styles\jq.popup.css</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\starter\styles\jq.scroller.css">
-      <PackagePath>html\examples\starter\styles\jq.scroller.css</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\starter\styles\jq.selectBox.css">
-      <PackagePath>html\examples\starter\styles\jq.selectBox.css</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\starter\themes\jq.ui.volcano.css">
-      <PackagePath>html\examples\starter\themes\jq.ui.volcano.css</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\todos\todos.css">
-      <PackagePath>html\examples\todos\todos.css</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\kitchensink\icons.css">
-      <PackagePath>html\kitchensink\icons.css</PackagePath>
-      <Modified>2012-12-10T15:30:02.492</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\kitchensink\jq.ui.carbon.css">
-      <PackagePath>html\kitchensink\jq.ui.carbon.css</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\kitchensink\jq.ui.css">
-      <PackagePath>html\kitchensink\jq.ui.css</PackagePath>
-      <Modified>2012-10-22T12:21:40.855</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\kitchensink\jq.ui.eco.css">
-      <PackagePath>html\kitchensink\jq.ui.eco.css</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\kitchensink\jq.ui.frosty.css">
-      <PackagePath>html\kitchensink\jq.ui.frosty.css</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\kitchensink\jq.ui.slate.css">
-      <PackagePath>html\kitchensink\jq.ui.slate.css</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\kitchensink\jq.ui.volcano.css">
-      <PackagePath>html\kitchensink\jq.ui.volcano.css</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\css\jq.actionsheet.css">
-      <PackagePath>html\plugins\css\jq.actionsheet.css</PackagePath>
-      <Modified>2012-11-02T12:14:24.090</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\css\jq.popup.css">
-      <PackagePath>html\plugins\css\jq.popup.css</PackagePath>
-      <Modified>2012-11-02T12:14:24.115</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\css\jq.scroller.css">
-      <PackagePath>html\plugins\css\jq.scroller.css</PackagePath>
-      <Modified>2012-11-02T12:14:24.141</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\knockout\knockout-2.0.0.js">
-      <PackagePath>html\examples\knockout\knockout-2.0.0.js</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\knockout\todo.js">
-      <PackagePath>html\examples\knockout\todo.js</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\starter\js\jq.alphatable.js">
-      <PackagePath>html\examples\starter\js\jq.alphatable.js</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\starter\js\jq.carousel.js">
-      <PackagePath>html\examples\starter\js\jq.carousel.js</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\starter\js\jq.drawer.js">
-      <PackagePath>html\examples\starter\js\jq.drawer.js</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\starter\js\jq.fx.js">
-      <PackagePath>html\examples\starter\js\jq.fx.js</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\starter\js\jq.template.js">
-      <PackagePath>html\examples\starter\js\jq.template.js</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\starter\js\jq.ui.min.js">
-      <PackagePath>html\examples\starter\js\jq.ui.min.js</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\starter\touch.js">
-      <PackagePath>html\examples\starter\touch.js</PackagePath>
-      <Modified>2012-08-29T18:58:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\todos\backbone-localstorage.js">
-      <PackagePath>html\examples\todos\backbone-localstorage.js</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\todos\backbone.js">
-      <PackagePath>html\examples\todos\backbone.js</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\todos\todos.js">
-      <PackagePath>html\examples\todos\todos.js</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\todos\underscore.js">
-      <PackagePath>html\examples\todos\underscore.js</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\tests\unit\tests.js">
+      <PackagePath>html\tests\unit\tests.js</PackagePath>
+      <Modified>2012-12-12T13:09:46.819</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\_appMobi\jq.mobi.js">
       <PackagePath>html\_appMobi\jq.mobi.js</PackagePath>
-      <Modified>2012-12-10T20:30:07.528</Modified>
+      <Modified>2012-12-12T15:54:49.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\_appMobi\jq.mobi.min.js">
       <PackagePath>html\_appMobi\jq.mobi.min.js</PackagePath>
-      <Modified>2012-08-29T18:58:24.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\css3animate.js">
-      <PackagePath>html\plugins\css3animate.js</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
+      <Modified>2012-12-12T13:09:44.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.actionsheet.js">
       <PackagePath>html\plugins\jq.actionsheet.js</PackagePath>
-      <Modified>2012-11-02T12:14:24.189</Modified>
+      <Modified>2012-12-12T13:09:45.480</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.alphatable.js">
       <PackagePath>html\plugins\jq.alphatable.js</PackagePath>
-      <Modified>2012-11-02T12:14:24.217</Modified>
+      <Modified>2012-12-12T13:09:45.516</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.carousel.js">
       <PackagePath>html\plugins\jq.carousel.js</PackagePath>
-      <Modified>2012-11-02T12:14:24.246</Modified>
+      <Modified>2012-12-12T13:09:45.561</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.css3animate.js">
       <PackagePath>html\plugins\jq.css3animate.js</PackagePath>
-      <Modified>2012-11-02T12:14:24.277</Modified>
+      <Modified>2012-12-12T13:09:45.607</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.debug.js">
       <PackagePath>html\plugins\jq.debug.js</PackagePath>
-      <Modified>2012-11-02T12:14:24.302</Modified>
+      <Modified>2012-12-12T13:09:45.643</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.desktopBrowsers.js">
       <PackagePath>html\plugins\jq.desktopBrowsers.js</PackagePath>
-      <Modified>2012-11-02T19:31:35.443</Modified>
+      <Modified>2012-12-12T13:09:45.677</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.drawer.js">
       <PackagePath>html\plugins\jq.drawer.js</PackagePath>
-      <Modified>2012-11-02T12:14:24.366</Modified>
+      <Modified>2012-12-12T13:09:45.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.fx.js">
       <PackagePath>html\plugins\jq.fx.js</PackagePath>
-      <Modified>2012-11-02T12:14:24.411</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.ie - Copy.js">
-      <PackagePath>html\plugins\jq.ie - Copy.js</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.ie.js">
-      <PackagePath>html\plugins\jq.ie.js</PackagePath>
-      <Modified>2012-08-29T18:58:27.000</Modified>
+      <Modified>2012-12-12T13:09:45.752</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.passwordBox.js">
       <PackagePath>html\plugins\jq.passwordBox.js</PackagePath>
-      <Modified>2012-11-02T12:14:24.439</Modified>
+      <Modified>2012-12-12T13:09:45.785</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.popup.js">
       <PackagePath>html\plugins\jq.popup.js</PackagePath>
-      <Modified>2012-11-02T12:14:24.472</Modified>
+      <Modified>2012-12-12T13:09:45.824</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.scroller.js">
       <PackagePath>html\plugins\jq.scroller.js</PackagePath>
-      <Modified>2012-11-02T12:14:24.515</Modified>
+      <Modified>2012-12-12T13:09:45.930</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.selectBox.js">
       <PackagePath>html\plugins\jq.selectBox.js</PackagePath>
-      <Modified>2012-11-02T12:14:24.550</Modified>
+      <Modified>2012-12-12T13:09:46.021</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.shake.js">
       <PackagePath>html\plugins\jq.shake.js</PackagePath>
-      <Modified>2012-11-02T12:14:24.572</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.spinner.js">
-      <PackagePath>html\plugins\jq.spinner.js</PackagePath>
-      <Modified>2012-09-13T19:04:15.000</Modified>
+      <Modified>2012-12-12T13:09:46.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.swipe.js">
       <PackagePath>html\plugins\jq.swipe.js</PackagePath>
-      <Modified>2012-11-02T12:14:24.606</Modified>
+      <Modified>2012-12-12T13:09:46.158</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.template.js">
       <PackagePath>html\plugins\jq.template.js</PackagePath>
-      <Modified>2012-11-02T12:14:23.757</Modified>
+      <Modified>2012-12-12T13:09:46.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.touchEvents.js">
       <PackagePath>html\plugins\jq.touchEvents.js</PackagePath>
-      <Modified>2012-11-02T12:14:23.956</Modified>
+      <Modified>2012-12-12T13:09:46.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.touchLayer.js">
       <PackagePath>html\plugins\jq.touchLayer.js</PackagePath>
-      <Modified>2012-11-02T12:14:23.987</Modified>
+      <Modified>2012-12-12T13:09:46.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\jq.web.min.js">
       <PackagePath>html\plugins\jq.web.min.js</PackagePath>
-      <Modified>2012-11-02T12:14:24.038</Modified>
+      <Modified>2012-12-12T13:09:46.397</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\ui\jq.ui.js">
       <PackagePath>html\ui\jq.ui.js</PackagePath>
-      <Modified>2012-12-10T16:10:04.199</Modified>
+      <Modified>2012-12-12T13:09:47.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\ui\jq.ui.min.js">
       <PackagePath>html\ui\jq.ui.min.js</PackagePath>
-      <Modified>2012-12-10T16:10:29.785</Modified>
+      <Modified>2012-12-12T13:09:47.287</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\ui\src\jq.ui.js">
       <PackagePath>html\ui\src\jq.ui.js</PackagePath>
-      <Modified>2012-12-10T20:29:51.302</Modified>
+      <Modified>2012-12-12T13:09:47.362</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\ui\transitions\all.js">
       <PackagePath>html\ui\transitions\all.js</PackagePath>
-      <Modified>2012-08-29T18:58:28.000</Modified>
+      <Modified>2012-12-12T13:09:47.408</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\ui\transitions\fade.js">
       <PackagePath>html\ui\transitions\fade.js</PackagePath>
-      <Modified>2012-08-29T18:58:28.000</Modified>
+      <Modified>2012-12-12T13:09:47.466</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\ui\transitions\flip.js">
       <PackagePath>html\ui\transitions\flip.js</PackagePath>
-      <Modified>2012-08-29T18:58:28.000</Modified>
+      <Modified>2012-12-12T13:09:47.497</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\ui\transitions\pop.js">
       <PackagePath>html\ui\transitions\pop.js</PackagePath>
-      <Modified>2012-08-29T18:58:28.000</Modified>
+      <Modified>2012-12-12T13:09:47.529</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\ui\transitions\slide.js">
       <PackagePath>html\ui\transitions\slide.js</PackagePath>
-      <Modified>2012-08-29T18:58:28.000</Modified>
+      <Modified>2012-12-12T13:09:47.563</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\ui\transitions\slideDown.js">
       <PackagePath>html\ui\transitions\slideDown.js</PackagePath>
-      <Modified>2012-08-29T18:58:28.000</Modified>
+      <Modified>2012-12-12T13:09:47.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\ui\transitions\slideUp.js">
       <PackagePath>html\ui\transitions\slideUp.js</PackagePath>
-      <Modified>2012-08-29T18:58:28.000</Modified>
+      <Modified>2012-12-12T13:09:47.630</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\_appMobi\appmobi.js">
       <PackagePath>html\_appMobi\appmobi.js</PackagePath>
-      <Modified>2012-12-11T19:35:50.568</Modified>
+      <Modified>2012-12-12T15:27:49.761</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\_appMobi\appmobi_local_bootstrap.js">
       <PackagePath>html\_appMobi\appmobi_local_bootstrap.js</PackagePath>
@@ -443,6 +239,50 @@
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\_appMobi\window.js">
       <PackagePath>html\_appMobi\window.js</PackagePath>
       <Modified>2012-12-11T19:36:05.431</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\styles\icons.css">
+      <PackagePath>html\examples\styles\icons.css</PackagePath>
+      <Modified>2012-12-12T13:09:45.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\examples\themes\jq.ui.css">
+      <PackagePath>html\examples\themes\jq.ui.css</PackagePath>
+      <Modified>2012-12-12T13:09:45.062</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\kitchensink\icons.css">
+      <PackagePath>html\kitchensink\icons.css</PackagePath>
+      <Modified>2012-12-12T15:53:55.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\kitchensink\jq.8tiles.css">
+      <PackagePath>html\kitchensink\jq.8tiles.css</PackagePath>
+      <Modified>2012-12-12T16:09:13.557</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\kitchensink\jq.ui.css">
+      <PackagePath>html\kitchensink\jq.ui.css</PackagePath>
+      <Modified>2012-12-12T15:53:55.676</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\kitchensink\jq.ui.less.css">
+      <PackagePath>html\kitchensink\jq.ui.less.css</PackagePath>
+      <Modified>2012-12-12T15:53:55.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\css\jq.selectBox.css">
+      <PackagePath>html\plugins\css\jq.selectBox.css</PackagePath>
+      <Modified>2012-12-12T13:09:46.568</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\tests\qunit\qunit.css">
+      <PackagePath>html\tests\qunit\qunit.css</PackagePath>
+      <Modified>2012-12-12T13:09:46.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\css\jq.actionsheet.css">
+      <PackagePath>html\plugins\css\jq.actionsheet.css</PackagePath>
+      <Modified>2012-12-12T13:09:46.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\css\jq.popup.css">
+      <PackagePath>html\plugins\css\jq.popup.css</PackagePath>
+      <Modified>2012-12-12T13:09:46.492</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\html\plugins\css\jq.scroller.css">
+      <PackagePath>html\plugins\css\jq.scroller.css</PackagePath>
+      <Modified>2012-12-12T13:09:46.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\readme.txt">
       <PackagePath>readme.txt</PackagePath>
@@ -462,7 +302,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\SkyDrive\Development\window8\AppMobiWindow8Template\AppMobiWindow8Template\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-12-10T20:19:00.397</Modified>
+      <Modified>2012-12-12T16:14:00.822</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

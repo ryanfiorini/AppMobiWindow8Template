@@ -9,6 +9,7 @@ html\_appMobi\appmobi.js
 html\_appMobi\appmobi_local_bootstrap.js
 html\_appMobi\jq.mobi.js
 html\_appMobi\jq.mobi.min.js
+html\_appMobi\window.js
 html\defer\index.html
 html\examples\knockout\destroy.png
 html\examples\knockout\images\background.jpg
@@ -103,3 +104,4 @@ html\ui\transitions\pop.js
 html\ui\transitions\slide.js
 html\ui\transitions\slideDown.js
 html\ui\transitions\slideUp.js
+readme.txt

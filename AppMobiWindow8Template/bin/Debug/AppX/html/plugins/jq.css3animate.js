@@ -46,9 +46,13 @@
     }
 
     //if (!window.WebKitCSSMatrix) return;
-    var translateOpen = "(";
-    var translateClose = ")";
-    var transitionEnd=$.os.ie?"transitionend":$.cssPrefix.replace(/-/g,"")+"TransitionEnd";
+    var translateOpen =$.feat.cssTransformStart;
+    var translateClose = $.feat.cssTransformEnd;
+    var transitionEnd=$.feat.cssPrefix.replace(/-/g,"")+"TransitionEnd";
+    transitionEnd=($.os.fennec||$.feat.cssPrefix==""||$.os.ie)?"transitionend":transitionEnd;
+
+    transitionEnd=transitionEnd.replace(transitionEnd.charAt(0),transitionEnd.charAt(0).toLowerCase());
+    
     var css3Animate = (function () {
         
         var css3Animate = function (elID, options) {
@@ -123,10 +127,13 @@
                     if (typeof (options.x) == "number" || (options.x.indexOf("%") == -1 && options.x.toLowerCase().indexOf("px") == -1 && options.x.toLowerCase().indexOf("deg") == -1)) options.x = parseInt(options.x) + "px";
                     if (typeof (options.y) == "number" || (options.y.indexOf("%") == -1 && options.y.toLowerCase().indexOf("px") == -1 && options.y.toLowerCase().indexOf("deg") == -1)) options.y = parseInt(options.y) + "px";
                     
-                    var trans= "translate" + translateOpen + (options.x) + "," + (options.y) + translateClose + " scale(" + parseFloat(options.scale) + ") rotate(" + options.rotateX + ") rotateY(" + options.rotateY + ") skew(" + options.skewX + "," + options.skewY + ")";
-                    this.el.style[$.cssPrefix+"transform"]=trans;
-                    this.el.style[$.cssPrefix+"backface-visibility"] = "hidden";
-                    var properties = $.cssPrefix+"transform";
+                    var trans= "translate" + translateOpen + (options.x) + "," + (options.y) + translateClose + " scale(" + parseFloat(options.scale) + ") rotate(" + options.rotateX + ")";
+                    if(!$.os.opera)
+                        trans+=" rotateY(" + options.rotateY + ")";
+                    trans+=" skew(" + options.skewX + "," + options.skewY + ")";
+                    this.el.style[$.feat.cssPrefix+"Transform"]=trans;
+                    this.el.style[$.feat.cssPrefix+"BackfaceVisibility"] = "hidden";
+                    var properties = $.feat.cssPrefix+"Transform";
                     if (options["opacity"]!==undefined) {
                         this.el.style.opacity = options["opacity"];
                         properties+=", opacity";
@@ -139,7 +146,7 @@
                         this.el.style.height = options["height"];
                         properties = "all";
                     }
-                    this.el.style[$.cssPrefix+"transition-property"] = properties;
+                    this.el.style[$.feat.cssPrefix+"TransitionProperty"] = "all";
                 
                     if((""+options["time"]).indexOf("s")===-1) {
                         var scale = 'ms';
@@ -152,9 +159,9 @@
                         var time = options["time"]+scale;
                     }
             
-                    this.el.style[$.cssPrefix+"transition-duration"] = time;
-                    this.el.style[$.cssPrefix+"transition-timing-function"] = options["timingFunction"];
-                    this.el.style[$.cssPrefix+"transform-origin"] = options.origin;
+                    this.el.style[$.feat.cssPrefix+"TransitionDuration"] = time;
+                    this.el.style[$.feat.cssPrefix+"TransitionTimingFunction"] = options["timingFunction"];
+                    this.el.style[$.feat.cssPrefix+"TransformOrigin"] = options.origin;
 
                 }
 
@@ -171,7 +178,7 @@
                 var style = window.getComputedStyle(this.el);
                 if(classMode){
                     //get the duration
-                    var duration = style[$.cssPrefix+"transition-duration"];
+                    var duration = style[$.feat.cssPrefix+"TransitionDuration"];
                     var timeNum = numOnly(duration);
                     if(duration.indexOf("ms")!==-1){
                         var scale = 'ms';
@@ -184,14 +191,20 @@
                 if(timeNum==0 || (scale=='ms' && timeNum<5) || style.display=='none'){
                     //the duration is nearly 0 or the element is not displayed, finish immediatly
                     $.asap($.proxy(this.finishAnimation, this, [false]));
+                    //this.finishAnimation();
                     //set transitionend event
                 } else {
                     //setup the event normally
+
+                   var that=this;
                     this.activeEvent = function(event){
+                        clearTimeout(that.timeout);
                         that.finishAnimation(event);
                         that.el.removeEventListener(transitionEnd, that.activeEvent, false);
-                    };                  
+                    };         
+                    that.timeout=setTimeout(this.activeEvent, numOnly(options["time"]) + 50);         
                     this.el.addEventListener(transitionEnd, this.activeEvent, false);
+
                 }
                 
             },

@@ -93,7 +93,7 @@
                 var self = this;
                 var markup = '<div id="' + this.id + '" class="jqPopup hidden">\
 	        				<header>' + this.title + '</header>\
-	        				<div><div style="width:1px;height:1px;'+this.cssPrefix+'transform:translate3d(0,0,0);float:right"></div>' + this.message + '</div>\
+	        				<div><div style="width:1px;height:1px;-webkit-transform:translate3d(0,0,0);float:right"></div>' + this.message + '</div>\
 	        				<footer style="clear:both;">\
 	        					<a href="javascript:;" class="'+this.cancelClass+'" id="cancel">' + this.cancelText + '</a>\
 	        					<a href="javascript:;" class="'+this.doneClass+'" id="action">' + this.doneText + '</a>\
@@ -130,7 +130,10 @@
                 $el.bind("orientationchange", function() {
                     self.positionPopup();
                 });
-                
+               
+                //force header/footer showing to fix CSS style bugs
+                $el.find("header").show();
+                $el.find("footer").show();
                 this.onShow(this);
                 
             },

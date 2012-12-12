@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DC614185-F124-4755-B23C-2DC8B9F9A610}</ProjectGuid>
+    <ProjectGuid>{25071DAE-D43B-4E8C-A356-78C5D84DDC9B}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AppMobiWindows8Template</RootNamespace>
@@ -230,6 +230,8 @@
     <Content Include="html\ui\transitions\slideUp.js" />
     <Content Include="html\_appMobi\appmobi.js" />
     <Content Include="html\_appMobi\appmobi_local_bootstrap.js" />
+    <Content Include="html\_appMobi\window.js" />
+    <Content Include="readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

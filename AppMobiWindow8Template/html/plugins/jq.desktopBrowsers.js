@@ -2,7 +2,8 @@
 //translates desktop browsers events to touch events and prevents defaults
 //It can be used independently in other apps but it is required for using the touchLayer in the desktop
 
-(function ($) {
+
+;(function ($) {
 	
 	var cancelClickMove=false;
 	var preventAll = function(e) 
@@ -46,7 +47,9 @@
     var mouseDown = false,
 		lastTarget = null,firstMove=false;
 
+
 	if(!window.navigator.msPointerEnabled){
+
 	    document.addEventListener("mousedown", function(e) 
 	    {
 			mouseDown = true;
@@ -77,11 +80,16 @@
 	else { //Win8
 	    document.addEventListener("MSPointerDown", function(e) 
 	    {
+
 			mouseDown = true;
 			lastTarget = e.target;
+			if (e.target.nodeName.toLowerCase() == "a" && e.target.href.toLowerCase() == "javascript:;")
+			    e.target.href = "#";
+
 	        redirectMouseToTouch("touchstart", e);
 	        firstMove = true;
 	        cancelClickMove=false;
+	      //  e.preventDefault();e.stopPropagation();
 	    }, true);
 
 	    document.addEventListener("MSPointerUp", function(e) 
@@ -90,16 +98,20 @@
 	        redirectMouseToTouch("touchend", e, lastTarget);	//bind it to initial mousedown target
 			lastTarget = null;
 			mouseDown = false;
+		//	e.preventDefault();e.stopPropagation();
 	    }, true);
 
 	    document.addEventListener("MSPointerMove", function(e) 
 	    {
+
 	        if (!mouseDown) return;
 	        if(firstMove) return firstMove=false
 	        redirectMouseToTouch("touchmove", e);
 	    	e.preventDefault();
+	    	//e.stopPropagation();
 
 	    	cancelClickMove=true;
+
 	    }, true);
 	}	
 		
@@ -132,4 +144,4 @@
 	    document.dispatchEvent(touchevt);
 	},false);
 	
-})(jq)
+})(jq);

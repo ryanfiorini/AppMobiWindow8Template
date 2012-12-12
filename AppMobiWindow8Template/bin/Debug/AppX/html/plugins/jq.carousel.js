@@ -25,8 +25,8 @@
     };
     
     var carousel = (function() {
-        var translateOpen = "3d(";
-        var translateClose = ",0)";
+        var translateOpen =$.feat.cssTransformStart;
+        var translateClose = $.feat.cssTransformEnd;
         
         var carousel = function(containerEl, opts) {
             if (typeof containerEl === "string" || containerEl instanceof String) {
@@ -63,9 +63,6 @@
 
                 // initial setup
                 this.container.style.overflow = "hidden";
-                this.container.style[$.cssPrefix+'box-orient'] = "vertical";
-                this.container.style['display'] = $.cssPrefix+"box";
-                this.container.style[$.cssPrefix+'box-orient'] = "vertical";
                 if (this.vertical) {
                     this.horizontal = false;
                 }
@@ -84,8 +81,7 @@
                     $el.append(myEl.get());
                 }
                 if (this.horizontal) {
-                    el.style.display = $.cssPrefix+"box";
-                    el.style[$.cssPrefix+'box-flex'] = 1;
+                    el.style.display = "block";
                     el.style.float="left";
                 } 
                 else {
@@ -308,11 +304,11 @@
                     time = parseInt(time);
                 if (!timingFunction)
                     timingFunction = "linear";
-                el.style[$.cssPrefix+"transform"] = "translate" + translateOpen + distanceToMove.x + "px," + distanceToMove.y + "px" + translateClose;
-                el.style[$.cssPrefix+"transition-duration"] = time + "ms";
-                el.style[$.cssPrefix+"backface-visibility"] = "hidden";
-                el.style[$.cssPrefix+"transformStyle"] = "preserve-3d";
-                el.style[$.cssPrefix+"transition-timing-function"] = timingFunction;
+                el.style[$.feat.cssPrefix+"Transform"] = "translate" + translateOpen + distanceToMove.x + "px," + distanceToMove.y + "px" + translateClose;
+                el.style[$.feat.cssPrefix+"TransitionDuration"] = time + "ms";
+                el.style[$.feat.cssPrefix+"BackfaceVisibility"] = "hidden";
+                el.style[$.feat.cssPrefix+"TransformStyle"] = "preserve-3d";
+                el.style[$.feat.cssPrefix+"TransitionTimingFunction"] = timingFunction;
             },
             
             addItem: function(el) {
@@ -343,6 +339,7 @@
                     if (this.horizontal) {
                         elems[i].style.width = widthParam;
                         elems[i].style.height = "100%";
+                        elems[i].style.float="left";
                     } 
                     else {
                         elems[i].style.height = widthParam;

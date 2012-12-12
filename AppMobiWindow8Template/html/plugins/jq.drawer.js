@@ -11,8 +11,8 @@
     };
     var drawer = (function () {
         
-        var translateOpen =  "3d(";
-        var translateClose = ",0)";
+        var translateOpen =$.feat.cssTransformStart;
+        var translateClose = $.feat.cssTransformEnd;
         var touchStarted = false;
 
         var drawer = function (elID, opts) {
@@ -213,11 +213,11 @@
                 if (!time) time = 0;
                 if (!timingFunction) timingFunction = "linear";
 
-                el.style[$.cssPrefix+"transform"] = "translate" + translateOpen + distanceToMove.x + "px," + distanceToMove.y + "px" + translateClose;
-                el.style[$.cssPrefix+"transition-duration"] = time + "ms";
-                el.style[$.cssPrefix+"backface-visibility"] = "hidden";
-                el.style[$.cssPrefix+"transformStyle"] = "preserve-3d";
-                el.style[$.cssPrefix+"transition-timing-function"] = timingFunction;
+                el.style[$.feat.cssPrefix+"Transform"] = "translate" + translateOpen + distanceToMove.x + "px," + distanceToMove.y + "px" + translateClose;
+                el.style[$.feat.cssPrefix+"TransitionDuration"] = time + "ms";
+                el.style[$.feat.cssPrefix+"BackfaceVisibility"] = "hidden";
+                el.style[$.feat.cssPrefix+"TransformStyle"] = "preserve-3d";
+                el.style[$.feat.cssPrefix+"TransitionTimingFunction"] = timingFunction;
             }
         };
         return drawer;

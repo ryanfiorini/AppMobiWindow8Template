@@ -18,7 +18,6 @@
 <link rel="stylesheet"  type="text/css" href="kitchensink/jq.ui.slate.css" title="slate" disabled='true'/>
 <link rel="stylesheet"  type="text/css" href="kitchensink/jq.ui.volcano.css" title="volcano" disabled='true' />
 
-
 <style>
 	.scrollBar{background:white;}
     h3 {text-align:center; font-size:35px;}
@@ -48,23 +47,18 @@
 <script type="text/javascript" charset="utf-8" src="_appMobi/appmobi_local_bootstrap.js"></script> 
 <script type="text/javascript" charset="utf-8" src="_appMobi/jq.mobi.js"></script> 
 
-<script>
+<script type="text/javascript" charset="utf-8" src="_appMobi/window.js"></script> 
 
+<script>
 function loadedPanel(what){
     //We are going to set the badge as the number of li elements inside the target
 	$.ui.updateBadge("#jqmlink",$("#jqm").find("li").length);
 	}
 	function unloadedPanel(what){
-	console.log("unloaded "+what.id);
+	    console.log("unloaded "+what.id);
 	}
 
-if(!((window.DocumentTouch&&document instanceof DocumentTouch)||'ontouchstart' in window)){
-var script=document.createElement("script");
-script.src="plugins/jq.desktopBrowsers.js";
-var tag=$("head").append(script);
-$.os.desktop=true;
-}
-var oldElem="default";
+var oldElem = "default";
 function setActiveStyleSheet(title) {
    var a = document.getElementsByTagName("link");
    var currElem;
@@ -87,8 +81,8 @@ function setActiveStyleSheet(title) {
       oldElem.setAttribute("disabled","true");
    },500);
 }
-$(document).ready(function(){
-oldElem=document.getElementsByTagName("link")[0];
+$(document).ready(function () {
+    oldElem = document.getElementsByTagName("link")[0];
 });
 
 </script>
@@ -110,7 +104,6 @@ oldElem=document.getElementsByTagName("link")[0];
 <script type="text/javascript" charset="utf-8" src="./plugins/jq.selectBox.js"></script> 
 <script type="text/javascript" charset="utf-8" src="./plugins/jq.passwordBox.js"></script> 
 
-
 <script type="text/javascript" charset="utf-8" src="./ui/src/jq.ui.js"></script> 
 <script type="text/javascript" charset="utf-8" src="./ui/transitions/all.js"></script> 
 
@@ -118,28 +111,28 @@ oldElem=document.getElementsByTagName("link")[0];
     /* This function runs once the page is loaded, but appMobi is not yet active */
 	var webRoot="./kitchensink/";
 	$.ui.autoLaunch=false;
-    $.ui.openLinksNewTab=false;
-    var init = function(){
+	$.ui.openLinksNewTab = false;
+
+    var init = function () {
 	   $.ui.backButtonText="Back";  
-	   window.setTimeout(function(){$.ui.launch();},1500);
-       //$.ui.removeFooterMenu(); This would remove the bottom nav menu
+        //$.ui.removeFooterMenu(); This would remove the bottom nav menu
     };
     document.addEventListener("DOMContentLoaded",init,false);  
 	$.ui.ready(function(){console.log('ready');});
 
     /* This code is used to run as soon as appMobi activates */
     var onDeviceReady=function(){
-        //debugger;
-    	console.log("wtfmobi");
+        window.setTimeout(function () { $.ui.launch(); }, 1);
+
 		//AppMobi.device.setRotateOrientation("portrait");
         //AppMobi.device.setAutoRotate(false);
 		webRoot=AppMobi.webRoot+"kitchensink/";
 	    //hide splash screen
 	    AppMobi.device.hideSplashScreen();	
-		
     };
     document.addEventListener("appMobi.device.ready",onDeviceReady,false);    
-	function showHide(obj,objToHide){
+
+    function showHide(obj, objToHide) {
 		var el=$("#"+objToHide)[0];
 		
 		if(obj.className=="expanded"){
@@ -149,7 +142,6 @@ oldElem=document.getElementsByTagName("link")[0];
 			obj.className="expanded";
 		}
 		$(el).toggle();
-		
 	}
 	
 </script>
